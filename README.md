@@ -11,7 +11,13 @@ Technologies
 
 Screenshots:
 ---
-1. Passed tests
+- Passed tests <br />
+  ![passedtests](screenshots/pass.png)
 
 
-2. Failed tests (on purpose to test the assertions)
+- Failed tests (on purpose to test the assertions)
+   For testing assertion, I deliberately made mistakes.
+   - On this one, I am trying to return a different string<br />
+  ![changingappjs](screenshots/appjs_yolo.png)<br />
+   But in app.js, I am still trying "Hello World!" and it results in an error.<br />
+   Also, I changed the type of the variable to number and that's why it shows another error.
