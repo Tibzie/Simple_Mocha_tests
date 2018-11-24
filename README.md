@@ -15,7 +15,7 @@ Screenshots:
   ![passedtests](screenshots/pass.png)
 
 
-- Failed tests (on purpose to test the assertions)
+- Failed tests (on purpose to test the assertions)<br />
   ![errors](screenshots/testjs_fail.png)<br />
    For testing assertion, I deliberately made mistakes.
    - On this one, I am trying to return a different string<br />
@@ -26,5 +26,8 @@ Screenshots:
    - The first part of the other test is looking for a sum of numbers which equals to 8 or more, but it only equals 7.<br />
    Therefore, it fails the predefined criteria. Also, the type is set to string - another fail.
   ![error3_4](screenshots/fail2.png)<br />
+
+- Travis CI<br />
+  ![passed_build](screenshots/travis_ci.png)
   
    
